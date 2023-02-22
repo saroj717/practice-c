@@ -13,6 +13,9 @@ int main(void)
     printf("Subtraction: %.2f - %.2f = %.2f\n", a, b, a-b);
     printf("Multiplication: %.2f * %.2f = %.2f\n", a, b, a*b);
     printf("Division: %.2f / %.2f = %.2f\n", a, b, a/b);
+    printf("Square root a:  %.2f is %.2f\n", a, sqrt(a));
+    printf("Square root b:  %.2f is %.2f\n", b, sqrt(b));
+    printf("Power:  %.2f to the power of %.2f = %.2f\n", a, b,  pow(a,b));
     
     
     return 0;
